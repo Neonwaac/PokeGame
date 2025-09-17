@@ -1,7 +1,7 @@
 README
-./App-Flutter 
+*./App-Flutter 
 Aplicación de flutter
-./Landing-Page 
+*./Landing-Page 
 Landing page de aplicación
-./Design
+*./Design
 Figma Initial Design
