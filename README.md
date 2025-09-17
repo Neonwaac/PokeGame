@@ -6,7 +6,7 @@ Este repositorio contiene el desarrollo completo de **Pokémon Trivia**, un jueg
 
 
 
-/pokemon-trivia-app
+/PokeGame
 │
 ├── App-Flutter/ → Aplicación móvil desarrollada en Flutter
 │
