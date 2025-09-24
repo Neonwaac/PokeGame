@@ -1,45 +1,43 @@
-# Pokémon Trivia App  
+# PokeGames 🎮✨
 
-Este repositorio contiene el desarrollo completo de **Pokémon Trivia**, un juego de preguntas y retos inspirado en el universo Pokémon. El proyecto incluye una **landing page web dinámica** y una **aplicación móvil en Flutter**, ambas conectadas a la [PokéAPI](https://pokeapi.co/).  
+Este repositorio contiene el desarrollo completo de **Pokegame**, una aplicación móvil creada con **Flutter** inspirada en el universo Pokémon.  
+El juego se conecta a la [PokéAPI](https://pokeapi.co/) para obtener datos en tiempo real y ofrece distintos modos de trivia y puntuación.  
 
 ## 📂 Estructura del repositorio  
 
-
-
-/PokeGame
+/app_flutter
 │
-├── App-Flutter/ → Aplicación móvil desarrollada en Flutter
+├── lib/
+│ ├── components/ → Widgets reutilizables (cards, tiles, buttons, etc.)
+│ ├── models/ → Clases de datos (ej. Score)
+│ ├── pages/ → Pantallas principales (Home, GuessType, Leaderboard)
+│ ├── providers/ → Manejo de estado global con ChangeNotifier
+│ ├── services/ → Lógica externa (API, almacenamiento, etc.)
+│ ├── themes/ → Colores y configuración de tema (light/dark)
+│ └── main.dart → Punto de entrada de la app
 │
-├── Landing-Page/ → Landing page promocional de la aplicación (HTML, CSS, JS)
-│
-└── Design/ → Prototipos y diseños iniciales en Figma
+└── assets/ → Fuentes, imágenes y recursos gráficos
 
 
-## 🚀 Descripción de los proyectos  
+## 🚀 Funcionalidades principales  
 
-### Landing Page  
-- Desarrollada en **HTML, CSS y JavaScript**.  
-- Funcionalidades principales:  
-  - Presentación del juego y explicación de sus modos.  
-  - Rankings de jugadores.  
-  - Visualización dinámica de Pokémon obtenidos desde la API.  
-
-### Aplicación Flutter  
-- Versión móvil del juego con vistas adaptadas a pantallas pequeñas.  
-- Modos de trivia:  
-  - Adivinar el Pokémon por su tipo.  
-  - Comparar dos Pokémon para ver cuál tiene mejores estadísticas.  
-- Diseñada para ofrecer una experiencia rápida e interactiva.  
-
-### Diseño (Figma)  
-- Contiene los **prototipos iniciales** y la propuesta visual de la aplicación.  
-- Sirve como referencia para la implementación en web y móvil.  
+- 🎯 **Modos de trivia**:
+  - Adivina el Pokémon según su tipo.  
+  - Comparaciones entre Pokémon usando sus estadísticas.  
+- 🏆 **Leaderboard dinámico** para mostrar puntajes.  
+- 🎨 **Diseño estilo pixel-art** con colores personalizados y tipografía `PixelifySans`.  
+- 🌙 **Soporte de tema claro/oscuro** con `Provider` + `ChangeNotifier`.  
+- ⚡ Animaciones suaves para transiciones y widgets interactivos.  
 
 ## 🛠 Tecnologías utilizadas  
-- **Web:** HTML, CSS, JavaScript  
+
 - **Mobile:** Flutter  
-- **Diseño:** Figma  
+- **Gestión de estado:** Provider + ChangeNotifier  
+- **Diseño:** Figma (prototipos iniciales)  
 - **API:** [PokéAPI](https://pokeapi.co/)  
 
 ## 📌 Objetivo  
-Desarrollar un producto multiplataforma que utilice una API pública y ofrezca un diseño moderno y dinámico, integrando tanto la versión web como la móvil bajo la misma idea de juego.  
+
+Ofrecer una experiencia divertida y educativa inspirada en Pokémon, con un diseño moderno, dinámico y optimizado para dispositivos móviles.  
+
+---
