@@ -21,17 +21,17 @@ class LetterBox extends StatelessWidget {
     Color bg;
     Color textColor = colors.onPrimary;
 
-    switch (state) {
+   switch (state) {
       case LetterState.correct:
-        bg = colors.secondary;
+        bg = AppColors.successGreen;
         textColor = colors.onSecondary;
         break;
       case LetterState.present:
-        bg = colors.tertiary;
+        bg = AppColors.warningOrange;
         textColor = colors.onTertiary;
         break;
       case LetterState.absent:
-        bg = colors.error;
+        bg = AppColors.errorRed;
         textColor = colors.onError;
         break;
       case LetterState.empty:
